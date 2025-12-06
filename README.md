@@ -47,7 +47,7 @@
 #### 1) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
 
-cd project
+cd transfer_learning
 
 #### 2) Создать виртуальное окружение
 python -m venv .venv
