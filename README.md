@@ -28,24 +28,18 @@ git clone https://github.com/youngbenzino/transfer_learning.git
 
 cd transfer_learning
 
-
 #### 2) Создать виртуальное окружение
 python -m venv .venv
-
 
 #### 3) Активировать виртуальное окружение (ниже приведены команды для Windows)
 .venv\Scripts\activate
 
-
 #### 4) Установить зависимости
 pip install -r requirements.txt
 
-
 #### 5) Убедиться, что dataset содержит подкаталоги train и test с изображениями по классам
-
 
 #### 6) Запустить скрипт
 python transfer_learning.py
-
 
 #### После запуска скрипт выведет точность модели до и после обучения, а также изменение точности.
