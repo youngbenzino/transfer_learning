@@ -13,19 +13,28 @@
 6. Тестирование точности **после обучения** и сравнение с исходной.
 
 ## Структура проекта (читать на вкладке Code)
-project/
-│
-├─ dataset/ # Исходные изображения (train/test по классам)
-│ ├─ american_football
-│ ├─ baseball
-│ ├─ basketball
-│ ├─ billiard_ball
-│ └─ bowling_ball
-├─ work_dataset/ # Временная папка с выбранными изображениями, создается скриптом
-├─ transfer_learning.py # Основной скрипт проекта
-├─ README.md # Этот файл
-├─ requirements.txt # Зависимости проекта
-└─ .gitignore # Игнорируемые файлы и папки
+│ 
+├─ dataset/ # Исходные изображения 
+  │ 
+  ├─ TEST
+    |
+    ├─ american_football 
+    ├─ baseball 
+    ├─ basketball 
+    ├─ billiard_ball 
+    └─ bowling_ball
+  ├─ TRAIN
+    |
+    ├─ american_football 
+    ├─ baseball 
+    ├─ basketball 
+    ├─ billiard_ball 
+    └─ bowling_ball
+├─ work_dataset/ # Временная папка с выбранными изображениями, создается скриптом, по структуре не отличается от папки dataset 
+├─ transfer_learning.py # Основной скрипт проекта 
+├─ README.md # Этот файл 
+├─ requirements.txt # Зависимости проекта 
+└─ .gitignore # Игнорируемые файлы и папки (локальные и временные)
 
 ## Требования
 - Python 3.8+  
@@ -36,23 +45,23 @@ project/
 Все зависимости указаны в файле `requirements.txt`.
 
 ## Как запустить
-# Клонировать репозиторий
+### Клонировать репозиторий
 git clone https://github.com/username/project.git
 cd project
 
-# Создать виртуальное окружение
+### Создать виртуальное окружение
 python -m venv .venv
 
-# Активировать виртуальное окружение
-# Windows
+### Активировать виртуальное окружение
+#### Windows
 .venv\Scripts\activate
 
-# Установить зависимости
+### Установить зависимости
 pip install -r requirements.txt
 
-# Убедиться, что dataset содержит подкаталоги train и test с изображениями по классам
+### Убедиться, что dataset содержит подкаталоги train и test с изображениями по классам
 
-# Запустить скрипт
+### Запустить скрипт
 python transfer_learning.py
 
 После запуска скрипт выведет точность модели до и после обучения, а также изменение точности.
