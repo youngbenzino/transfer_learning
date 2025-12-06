@@ -12,29 +12,7 @@
 6. Тестирование точности **после обучения** и сравнение с исходной.
 
 ## Структура проекта (читать на вкладке Code)
-<img width="1056" height="527" alt="image" src="https://github.com/user-attachments/assets/52189a1f-7e25-46b7-9841-788b7ec1242b" /># Transfer Learning Project
-
-├─ dataset/ # Исходные изображения 
-  │ 
-  ├─ TEST
-    |
-    ├─ american_football 
-    ├─ baseball 
-    ├─ basketball 
-    ├─ billiard_ball 
-    └─ bowling_ball
-  ├─ TRAIN
-    |
-    ├─ american_football 
-    ├─ baseball 
-    ├─ basketball 
-    ├─ billiard_ball 
-    └─ bowling_ball
-├─ work_dataset/ # Временная папка с выбранными изображениями, создается скриптом, по структуре не отличается от папки dataset 
-├─ transfer_learning.py # Основной скрипт проекта 
-├─ README.md # Этот файл 
-├─ requirements.txt # Зависимости проекта 
-└─ .gitignore # Игнорируемые файлы и папки (локальные и временные)
+<img width="1056" height="527" alt="image" src="https://github.com/user-attachments/assets/52189a1f-7e25-46b7-9841-788b7ec1242b" />
 
 ## Требования
 - Python  
