@@ -1,4 +1,4 @@
-<img width="1056" height="527" alt="image" src="https://github.com/user-attachments/assets/52189a1f-7e25-46b7-9841-788b7ec1242b" /># Transfer Learning Project
+
 ## Описание
 Учебный проект по **Transfer Learning** с использованием модели **MobileNetV2**, предобученной на **ImageNet**.  
 Цель проекта — классификация изображений на несколько классов (например, различные виды мячей: american_football, baseball, basketball, billiard_ball, bowling_ball).
@@ -12,7 +12,7 @@
 6. Тестирование точности **после обучения** и сравнение с исходной.
 
 ## Структура проекта (читать на вкладке Code)
-<img width="1056" height="527" alt="image" src="https://github.com/user-attachments/assets/e701436d-ee55-4d16-a6b6-0453a54e5a2c" />
+<img width="1056" height="527" alt="image" src="https://github.com/user-attachments/assets/52189a1f-7e25-46b7-9841-788b7ec1242b" /># Transfer Learning Project
 
 ├─ dataset/ # Исходные изображения 
   │ 
