@@ -23,7 +23,7 @@
 Все зависимости указаны в файле `requirements.txt`.
 
 ## Инструкция по запуску для Windows
-#### 1) Клонировать репозиторий
+### 1) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
 
 cd transfer_learning
