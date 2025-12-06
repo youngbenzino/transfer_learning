@@ -16,17 +16,16 @@
 project/
 │
 ├─ dataset/ # Исходные изображения (train/test по классам)
-   │
-   ├─ american_football
-   ├─ baseball
-   ├─ basketball
-   ├─ billiard_ball
-   └─ bowling_ball
-├─ work_dataset/ # Временная папка с выбранными изображениями, создается скриптом, по структуре не отличается от папки dataset
+│ ├─ american_football
+│ ├─ baseball
+│ ├─ basketball
+│ ├─ billiard_ball
+│ └─ bowling_ball
+├─ work_dataset/ # Временная папка с выбранными изображениями, создается скриптом
 ├─ transfer_learning.py # Основной скрипт проекта
 ├─ README.md # Этот файл
 ├─ requirements.txt # Зависимости проекта
-└─ .gitignore # Игнорируемые файлы и папки (локальные и временные)
+└─ .gitignore # Игнорируемые файлы и папки
 
 ## Требования
 - Python 3.8+  
