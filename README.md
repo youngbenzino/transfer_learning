@@ -46,7 +46,7 @@
 
 ## Как запустить
 #### 1) Клонировать репозиторий
-git clone https://github.com/username/project.git
+git clone https://github.com/youngbenzino/transfer_learning.git
 cd project
 
 #### 2) Создать виртуальное окружение
