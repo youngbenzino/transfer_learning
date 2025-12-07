@@ -32,7 +32,12 @@ https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe
 ### 3) Установить Build Tools для Visual Studio 2026
 https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026
 
-В установщике выбрать "Разработка классических приложений на C++"
+#### 3.1) В установщике выбрать "Разработка классических приложений на C++"
+#### 3.2) В появившихся справа сведениях об установке выбрать следующие пункты пункты:
+- Средства сборки MSVC для x64/x86;
+- Windows 11 SDK (будет работать и на Windows 10);
+- Средства CMake C++ для Windows;
+- MSVC версии 143 - средства сборки С++ VS 2022 для x64/x86.
 
 ### 4) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
