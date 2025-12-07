@@ -20,33 +20,37 @@
 Все зависимости указаны в файле `requirements.txt`.
 
 ## Инструкция по запуску для Windows
-### 1) Клонировать репозиторий
+### 1) Установить Python 3.12.8 (https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe)
+
+### 2) Установить (https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026)
+
+### 3) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
 
-### 2) Пройти аутентификацию на github
+### 4) Пройти аутентификацию на github
 
-### 3) Перейти в директорию проекта
+### 5) Перейти в директорию проекта
 cd transfer_learning
 
 ### 4) Создать виртуальное окружение
 python -m venv .venv
 
-### 5) Разово разрешить скрипт в текущей сессии PowerShell
+### 6) Разово разрешить скрипт в текущей сессии PowerShell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-### 6) Выбрать опцию "Да"
+### 7) Выбрать опцию "Да"
 
 Y
 
-### 7) Активировать виртуальное окружение
+### 8) Активировать виртуальное окружение
 .venv\Scripts\activate
 
-### 8) Установить зависимости
+### 9) Установить зависимости
 pip install -r requirements.txt
 
-### 9) Убедиться, что dataset содержит подкаталоги train и test с изображениями по классам
+### 10) Убедиться, что dataset содержит подкаталоги train и test с изображениями по классам
 
-### 10) Запустить скрипт
+### 11) Запустить скрипт
 python transfer_learning.py
 
 ### После запуска скрипт выведет точность модели до и после обучения, а также изменение точности.
