@@ -33,7 +33,7 @@ https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe
 https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026
 
 #### 3.1) В установщике выбрать "Разработка классических приложений на C++"
-#### 3.2) В появившихся справа сведениях об установке выбрать следующие пункты пункты:
+#### 3.2) В появившихся справа сведениях об установке выбрать следующие пункты:
 - Средства сборки MSVC для x64/x86
 - Windows 11 SDK (будет работать и на Windows 10)
 - Средства CMake C++ для Windows
