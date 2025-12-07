@@ -37,7 +37,7 @@ https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-
 ### 4) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
 
-### 5) Пройти аутентификацию на github
+### 5) Далее может потребоваться прохождение аутентификации на github
 
 ### 6) Перейти в директорию проекта
 cd transfer_learning
