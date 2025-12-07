@@ -37,6 +37,8 @@ python -m venv .venv
 #### 5) Разово разрешить скрипт в текущей сессии PowerShell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
+Y
+
 #### 6) Активировать виртуальное окружение
 .venv\Scripts\activate
 
