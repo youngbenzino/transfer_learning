@@ -20,9 +20,11 @@
 Все зависимости указаны в файле `requirements.txt`.
 
 ## Инструкция по запуску для Windows
-### 1) Установить Python 3.12.8 (https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe)
+### 1) Установить Python 3.12.8
+https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe
 
-### 2) Установить (https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026)
+### 2) Установить
+https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026
 
 ### 3) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
