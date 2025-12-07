@@ -12,6 +12,7 @@
 6. Тестирование точности **после обучения** и сравнение с исходной.
 
 ## Требования
+- Build Tools для Visual Studio
 - Python  
 - TensorFlow  
 - NumPy  
@@ -23,7 +24,7 @@
 ### 1) Установить Python 3.12.8
 https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe
 
-### 2) Установить
+### 2) Установить Build Tools для Visual Studio 2026
 https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026
 
 ### 3) Клонировать репозиторий
