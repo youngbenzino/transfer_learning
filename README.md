@@ -23,7 +23,7 @@
 Все зависимости указаны в файле `requirements.txt`.
 
 ## Инструкция по запуску для Windows
-### 1) Git 2.52.0
+### 1) Установить Git 2.52.0
 https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe
 
 ### 2) Установить Python 3.12.8
