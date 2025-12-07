@@ -28,6 +28,8 @@ https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe
 ### 2) Установить Build Tools для Visual Studio 2026
 https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-visual-studio-2026
 
+В установщике выбрать "Разработка классических приложений на C++"
+
 ### 3) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
 
