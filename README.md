@@ -38,7 +38,7 @@ https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-
 - Windows 11 SDK (будет работать и на Windows 10)
 - Средства CMake C++ для Windows
 - MSVC версии 143 — средства сборки С++ VS 2022 для x64/x86
-- Нажать на "Установить"
+#### 3.3) Нажать на "Установить"
 
 ### 4) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
