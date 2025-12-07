@@ -13,12 +13,12 @@
 6. Тестирование точности **после обучения** и сравнение с исходной.
 
 ## Требования
-- Git
-- Build Tools для Visual Studio
-- Python  
-- TensorFlow  
-- NumPy  
-- Pillow  
+- Git;
+- Build Tools для Visual Studio;
+- Python;  
+- TensorFlow;  
+- NumPy;  
+- Pillow.  
 
 Все зависимости указаны в файле `requirements.txt`.
 
@@ -37,7 +37,8 @@ https://visualstudio.microsoft.com/ru/downloads/?q=build+tools#remote-tools-for-
 - Средства сборки MSVC для x64/x86;
 - Windows 11 SDK (будет работать и на Windows 10);
 - Средства CMake C++ для Windows;
-- MSVC версии 143 - средства сборки С++ VS 2022 для x64/x86.
+- MSVC версии 143 - средства сборки С++ VS 2022 для x64/x86;
+- Нажать на "Установить".
 
 ### 4) Клонировать репозиторий
 git clone https://github.com/youngbenzino/transfer_learning.git
